@@ -1,0 +1,21 @@
+{
+  "name": "redback13/meishitong",
+  "description": "美事通OpenAPI",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "redback13",
+      "email": "redback14253@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Redback13\\Meishitong\\": "src"
+    }
+  }
+}
