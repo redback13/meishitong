@@ -35,7 +35,6 @@ class Meishitong
         ]);
 
         $responseBody = $response->getBody();
-        var_dump($responseBody);die;
     }
 
 
